@@ -41,6 +41,12 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "forky ",
+      "image": "https://images.squarespace-cdn.com/content/v1/544591e6e4b0135285aeb5b6/1527705698936-A9OZILXKNVCZX4F8SDE3/Asplenium_septentrionale_04.JPG?format=1000w",
+      "price": "1000",
+      "id": 8
     }
   ]
 }
