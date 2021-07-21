@@ -21,7 +21,8 @@ function PlantPage() {
     setPlants([...plants, addPlant])
   }
 
-
+//for this filter function to work, you need to make sure that you set up a function allowing the filter to actually work. see "search" component
+//
   const setPlantFilter = plants.filter((plant) => {
     // if (plantSearch === "") {
     //   return true 
@@ -38,7 +39,7 @@ function PlantPage() {
         addPlant={handleAddPlant}
       />
       <Search 
-        plantSearch={plantSearch}
+        plantSearch={plantSearch} // for these two props, you need to set up a function in its component, "search"
         onChangePlantSearch={setPlantSearch}
       />
       <PlantList 
